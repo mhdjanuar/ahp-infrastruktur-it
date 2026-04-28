@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2025 at 06:34 AM
+-- Generation Time: Apr 28, 2026 at 03:29 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ahp_bahan_terbaik`
+-- Database: `ahp_infrastruktur_ti`
 --
 
 -- --------------------------------------------------------
@@ -42,12 +42,10 @@ CREATE TABLE `candidates` (
 --
 
 INSERT INTO `candidates` (`id`, `name`, `description`, `appearance_score`, `comfort_score`, `durability_score`, `maintenance_score`) VALUES
-(1, 'Belini', 'Kain campuran polyester dan katun, kuat, tidak mudah kusut, cocok untuk seragam lapangan dan formal.', 7, 6, 8, 9),
-(2, 'Karmani', 'Kain poliester-viskosa yang tebal dan elegan, cocok untuk jas atau blazer dengan tampilan eksklusif.', 9, 7, 9, 6),
-(3, 'Potopino', 'Kain formal berbahan poliester-viskosa, doff, tidak mudah kusut, ideal untuk pakaian kantor.', 8, 7, 9, 7),
-(4, 'Tropical', 'Kain ringan, sejuk, dan mudah dicuci, cocok untuk pakaian kerja harian di iklim tropis.', 6, 8, 7, 8),
-(5, 'Semi Wool test', 'Kain premium campuran wol sintetis, tampilan sangat elegan namun butuh Dampak khusus. test', 7, 1, 2, 3),
-(6, 'Test', 'test desc', 1, 2, 3, 4);
+(1, 'Laptop', 'Laptop karyawan sering lemot dan digunakan setiap hari', 8, 7, 9, 7),
+(2, 'Server', 'Server utama untuk database, sangat krusial', 6, 10, 10, 10),
+(3, 'Router', 'Router untuk jaringan kantor', 7, 8, 8, 8),
+(4, 'Access Point', 'Access point untuk koneksi wifi', 5, 6, 7, 6);
 
 -- --------------------------------------------------------
 
@@ -66,10 +64,10 @@ CREATE TABLE `criteria` (
 --
 
 INSERT INTO `criteria` (`code`, `name`, `priority`) VALUES
-('K1', 'Nilai Kondisi', 'Sangat Penting ke-1'),
-('K2', 'Kebutuhan', 'Penting ke-2'),
-('K3', 'Frekuensi', 'Cukup Penting ke-3'),
-('K4', 'Dampak', 'Biasa ke-4');
+('K1', 'Kondisi Perangkat', 'Sangat Penting'),
+('K2', 'Tingkat Kebutuhan', 'Sangat Penting'),
+('K3', 'Frekuensi Penggunaan', 'Penting'),
+('K4', 'Dampak Jika Tidak Diganti', 'Sangat Penting');
 
 -- --------------------------------------------------------
 
@@ -83,18 +81,6 @@ CREATE TABLE `selections` (
   `score` double NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `selections`
---
-
-INSERT INTO `selections` (`id`, `user_id`, `score`) VALUES
-(24, 1, 0.19667015580367928),
-(25, 2, 0.22729280517518738),
-(26, 3, 0.2175619524387945),
-(27, 4, 0.1950298068085848),
-(28, 5, 0.11007117468177018),
-(29, 6, 0.05337410509198398);
-
 -- --------------------------------------------------------
 
 --
@@ -103,29 +89,19 @@ INSERT INTO `selections` (`id`, `user_id`, `score`) VALUES
 
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `gender` varchar(15) DEFAULT NULL,
-  `email` varchar(50) NOT NULL,
-  `place_of_birth` varchar(15) DEFAULT NULL,
-  `date_of_birth` date DEFAULT NULL,
-  `address` text DEFAULT NULL,
-  `religion` varchar(255) DEFAULT NULL,
-  `status` varchar(15) DEFAULT NULL,
-  `phone_number` varchar(15) DEFAULT NULL,
-  `join_date` datetime DEFAULT NULL,
-  `username` varchar(30) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `username` varchar(50) NOT NULL,
   `password` varchar(255) NOT NULL,
-  `role_id` int(11) DEFAULT NULL,
-  `created_at` datetime DEFAULT NULL,
-  `updated_at` datetime DEFAULT NULL
+  `role` varchar(20) DEFAULT 'admin',
+  `created_at` datetime DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `gender`, `email`, `place_of_birth`, `date_of_birth`, `address`, `religion`, `status`, `phone_number`, `join_date`, `username`, `password`, `role_id`, `created_at`, `updated_at`) VALUES
-(1, 'Admin Utama', 'Male', 'admin@example.com', 'Jakarta', '1990-01-01', 'Jl. Merdeka No. 1, Jakarta', 'Islam', 'Active', '081234567890', '2025-05-22 00:28:50', 'admin', 'admin', 1, '2025-05-22 00:28:50', '2025-05-22 00:28:50');
+INSERT INTO `users` (`id`, `name`, `username`, `password`, `role`, `created_at`) VALUES
+(1, 'admin', 'admin', 'admin', 'admin', '2026-04-25 19:52:26');
 
 --
 -- Indexes for dumped tables
@@ -138,9 +114,21 @@ ALTER TABLE `candidates`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `criteria`
+--
+ALTER TABLE `criteria`
+  ADD PRIMARY KEY (`code`);
+
+--
 -- Indexes for table `selections`
 --
 ALTER TABLE `selections`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -151,13 +139,19 @@ ALTER TABLE `selections`
 -- AUTO_INCREMENT for table `candidates`
 --
 ALTER TABLE `candidates`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `selections`
 --
 ALTER TABLE `selections`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
