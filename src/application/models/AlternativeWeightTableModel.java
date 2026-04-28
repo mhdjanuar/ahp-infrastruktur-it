@@ -25,13 +25,13 @@ public class AlternativeWeightTableModel extends AbstractTableModel {
             case 1:
                 return "Nama Bahan";
             case 2:
-                return "Nilai Penampilan";
+                return "Nilai Kondisi";
             case 3:
-                return "Kenyamanan";
+                return "Kebutuhan";
             case 4:
-                return "Ketahanan";
+                return "Frekuensi";
             case 5:
-                return "Perawatan";
+                return "Dampak";
             case 6:
                 return "Bobot";
             default:

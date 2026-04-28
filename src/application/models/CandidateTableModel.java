@@ -23,13 +23,13 @@ import javax.swing.table.AbstractTableModel;public class CandidateTableModel ext
             case 2:
                 return "Deskripsi";
             case 3:
-                return "Nilai Penampilan";
+                return "Kondisi";
             case 4:
-                return "Kenyamanan";
+                return "Kebutuhan";
             case 5:
-                return "Ketahanan";
+                return "Frekuensi";
             case 6:
-                return "Perawatan";
+                return "Dampak";
             default:
                 return null;
         }

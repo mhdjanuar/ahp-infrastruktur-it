@@ -52,7 +52,7 @@
               <Font name="Tahoma" size="24" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Sistem Pendukung Keputusan Pemilihan Bahan Terbaik"/>
+            <Property name="text" type="java.lang.String" value="Sistem test"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">

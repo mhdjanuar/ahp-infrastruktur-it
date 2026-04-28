@@ -189,7 +189,7 @@
         </Component>
         <Component class="javax.swing.JLabel" name="note">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Catatan : Edit/Hapus data calon pelamar, klik data pada tabel terlebih dahulu"/>
+            <Property name="text" type="java.lang.String" value="Catatan : Edit/Hapus data, klik data pada tabel terlebih dahulu"/>
           </Properties>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane2">

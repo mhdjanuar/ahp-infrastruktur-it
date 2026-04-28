@@ -160,7 +160,7 @@ public class MasterCandidate extends javax.swing.JPanel {
             }
         });
 
-        note.setText("Catatan : Edit/Hapus data calon pelamar, klik data pada tabel terlebih dahulu");
+        note.setText("Catatan : Edit/Hapus data, klik data pada tabel terlebih dahulu");
 
         tableCandidate.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {

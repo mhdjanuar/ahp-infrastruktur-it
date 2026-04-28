@@ -92,7 +92,7 @@ public class SelectionData extends javax.swing.JPanel {
                 {null, null, null, null}
             },
             new String [] {
-                "Ranking", "No.ID", "Nama Bahan", "Hasil Penilaian"
+                "Ranking", "No.ID", "Nama Infrastruktur", "Hasil Penilaian"
             }
         ));
         tableRanking.addMouseListener(new java.awt.event.MouseAdapter() {

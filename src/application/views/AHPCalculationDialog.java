@@ -1246,9 +1246,9 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         ));
         jScrollPane3.setViewportView(jTableMatrixComparisonAdvancedSkill);
 
-        jLabel23.setText("Kriteria Kenyamanan");
+        jLabel23.setText("Kriteria Kondisi");
 
-        jLabel24.setText("Kriteria Penampilan");
+        jLabel24.setText("Kriteria Kebutuhan");
 
         jTableMatrixComparisonLeadership.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1263,7 +1263,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         ));
         jScrollPane4.setViewportView(jTableMatrixComparisonLeadership);
 
-        jLabel25.setText("Kriteria Ketahanan");
+        jLabel25.setText("Kriteria Frekuensi");
 
         jTableMatrixComparisonKnowledge.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1278,7 +1278,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         ));
         jScrollPane5.setViewportView(jTableMatrixComparisonKnowledge);
 
-        jLabel26.setText("Kriteria Perawatan");
+        jLabel26.setText("Kriteria Dampak");
 
         jTableMatrixComparisonTechnicalSkill.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1295,9 +1295,9 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
 
         jLabel27.setText("6. Matriks Bobot Alternatif terhadap Kriteria");
 
-        jLabel28.setText("Kriteria Penampilan");
+        jLabel28.setText("Kriteria Kebutuhan");
 
-        jLabel29.setText("Kriteria Kenyamanan");
+        jLabel29.setText("Kriteria Kondisi");
 
         jTableMatrixComparisonNormalizeLeadership.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1312,7 +1312,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         ));
         jScrollPane8.setViewportView(jTableMatrixComparisonNormalizeLeadership);
 
-        jLabel32.setText("Kriteria Ketahanan");
+        jLabel32.setText("Kriteria Frekuensi");
 
         jTableMatrixComparisonNormalizeTechnicalSkill.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -1327,7 +1327,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         ));
         jScrollPane9.setViewportView(jTableMatrixComparisonNormalizeTechnicalSkill);
 
-        jLabel33.setText("Kriteria Perawatan");
+        jLabel33.setText("Kriteria Dampak");
 
         jTableMatrixComparisonNormalizeAdvancedSkill.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
