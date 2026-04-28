@@ -228,13 +228,13 @@ public class CriteriaData extends javax.swing.JPanel {
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel13.setText("Kriteria biasa ke-4");
 
-        comboBoxCriteria1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Penampilan", "Kenyamanan", "Ketahanan", "Perawatan" }));
+        comboBoxCriteria1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Kondisi", "Kebutuhan", "Frekuensi", "Dampak" }));
 
-        comboBoxCriteria2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Penampilan", "Kenyamanan", "Ketahanan", "Perawatan" }));
+        comboBoxCriteria2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Kondisi", "Kebutuhan", "Frekuensi", "Dampak" }));
 
-        comboBoxCriteria3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Penampilan", "Kenyamanan", "Ketahanan", "Perawatan" }));
+        comboBoxCriteria3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Kondisi", "Kebutuhan", "Frekuensi", "Dampak" }));
 
-        comboBoxCriteria4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Penampilan", "Kenyamanan", "Ketahanan", "Perawatan" }));
+        comboBoxCriteria4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pilih Kriteria -", "Nilai Kondisi", "Kebutuhan", "Frekuensi", "Dampak" }));
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);

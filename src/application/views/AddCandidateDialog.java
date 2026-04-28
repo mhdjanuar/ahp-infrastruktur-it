@@ -119,23 +119,23 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         judul.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         judul.setForeground(new java.awt.Color(255, 255, 255));
         judul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        judul.setText("Tambah Data Bahan");
+        judul.setText("Tambah Data Infrastruktur");
         judul.setOpaque(true);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Penilaian Bobot Bahan"));
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel24.setText("Nilai Penampilan");
+        jLabel24.setText("Nilai Kondisi");
 
         jLabel25.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel25.setText("Kenyamanan");
+        jLabel25.setText("Kebutuhan");
 
         jLabel26.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel26.setText("Ketahanan");
+        jLabel26.setText("Frekuensi");
 
         jLabel27.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
-        jLabel27.setText("Perawatan");
+        jLabel27.setText("Dampak");
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);

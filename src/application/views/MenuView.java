@@ -125,11 +125,11 @@ public class MenuView extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setText("Sistem test");
+        jLabel2.setText("Sistem Pendukung Keputusan Inventaris Peralatan Teknologi Informasi");
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("Menggunakan Metode AHP Pada CV.Mangun Jaya Utama");
+        jLabel3.setText("Pada Kegiatan Infrasturktur 1 PT.Wijaya Karya menggunakan metode AHP");
 
         javax.swing.GroupLayout HomeLayout = new javax.swing.GroupLayout(Home);
         Home.setLayout(HomeLayout);
@@ -204,7 +204,7 @@ public class MenuView extends javax.swing.JFrame {
 
         laporanCalonPelamar.setBackground(new java.awt.Color(66, 142, 246));
         laporanCalonPelamar.setForeground(new java.awt.Color(255, 255, 255));
-        laporanCalonPelamar.setText("    Laporan Data Bahan");
+        laporanCalonPelamar.setText("    Laporan Data Infrastruktur");
         laporanCalonPelamar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         laporanCalonPelamar.setOpaque(true);
         laporanCalonPelamar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -376,7 +376,7 @@ public class MenuView extends javax.swing.JFrame {
         judul1.setBackground(new java.awt.Color(245, 247, 250));
         judul1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         judul1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        judul1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/mangun_jaya-200.png"))); // NOI18N
+        judul1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/images/wika-200.jpeg"))); // NOI18N
         judul1.setOpaque(true);
 
         Pane.setBackground(new java.awt.Color(250, 250, 250));
@@ -412,7 +412,7 @@ public class MenuView extends javax.swing.JFrame {
                 .addGap(0, 0, 0)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(Pane, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Menu, javax.swing.GroupLayout.DEFAULT_SIZE, 570, Short.MAX_VALUE)))
+                    .addComponent(Menu, javax.swing.GroupLayout.DEFAULT_SIZE, 634, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

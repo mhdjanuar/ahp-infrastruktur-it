@@ -52,7 +52,7 @@
               <Font name="Tahoma" size="24" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Sistem test"/>
+            <Property name="text" type="java.lang.String" value="Sistem Pendukung Keputusan Inventaris Peralatan Teknologi Informasi"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
@@ -61,7 +61,7 @@
               <Font name="Tahoma" size="24" style="1"/>
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Menggunakan Metode AHP Pada CV.Mangun Jaya Utama"/>
+            <Property name="text" type="java.lang.String" value="Pada Kegiatan Infrasturktur 1 PT.Wijaya Karya menggunakan metode AHP"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JSeparator" name="jSeparator1">
@@ -133,7 +133,7 @@
                   <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="Pane" max="32767" attributes="0"/>
-                      <Component id="Menu" pref="570" max="32767" attributes="0"/>
+                      <Component id="Menu" pref="634" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -273,7 +273,7 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="    Laporan Data Bahan"/>
+                    <Property name="text" type="java.lang.String" value="    Laporan Data Infrastruktur"/>
                     <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                       <Color id="Default Cursor"/>
                     </Property>
@@ -427,7 +427,7 @@
             </Property>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/resources/images/mangun_jaya-200.png"/>
+              <Image iconType="3" name="/resources/images/wika-200.jpeg"/>
             </Property>
             <Property name="opaque" type="boolean" value="true"/>
           </Properties>

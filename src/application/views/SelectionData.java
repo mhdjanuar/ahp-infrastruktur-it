@@ -136,7 +136,7 @@ public class SelectionData extends javax.swing.JPanel {
 
         tombolLihatPerhitunganAHP.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         tombolLihatPerhitunganAHP.setForeground(new java.awt.Color(179, 30, 144));
-        tombolLihatPerhitunganAHP.setText("Mulai Penilaian INfrastruktur Terbaik Metode AHP");
+        tombolLihatPerhitunganAHP.setText("Mulai Penilaian Infrastruktur Terbaik Metode AHP");
         tombolLihatPerhitunganAHP.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(202, 210, 226)));
         tombolLihatPerhitunganAHP.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {

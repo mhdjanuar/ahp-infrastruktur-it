@@ -34,7 +34,7 @@
 		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQL"/>
 		<queryString language="SQL">
-			<![CDATA[select * from  ahp_bahan_terbaik.candidates ]]>
+			<![CDATA[select * from ahp_infrastruktur_ti.candidates ]]>
 		</queryString>
 		<field name="id" class="java.lang.Integer">
 			<property name="com.jaspersoft.studio.field.name" value="id"/>
@@ -74,7 +74,7 @@
 	</subDataset>
 	<parameter name="PATH" class="java.lang.String"/>
 	<queryString language="SQL">
-		<![CDATA[select * from  ahp_bahan_terbaik.candidates limit 1]]>
+		<![CDATA[select * from ahp_infrastruktur_ti.candidates limit 1]]>
 	</queryString>
 	<field name="id" class="java.lang.Integer">
 		<property name="com.jaspersoft.studio.field.name" value="id"/>
@@ -124,22 +124,22 @@
 						<font fontName="Times New Roman" size="20" isBold="true"/>
 						<paragraph lineSpacingSize="1.0"/>
 					</textElement>
-					<text><![CDATA[CV.Mangun Jaya Utama]]></text>
+					<text><![CDATA[PT.Wijaya Karya]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="182" y="40" width="310" height="20" forecolor="#FFFAFA" uuid="5bd79f7a-72f1-4733-808c-c0db3d46fe9e"/>
 					<textElement>
 						<font fontName="Times New Roman"/>
 					</textElement>
-					<text><![CDATA[JLN. MABES TNI DELTA 5, Kota Jakarta Timur]]></text>
+					<text><![CDATA[Jl. DI. Panjaitan No.9-10, RT.1/RW.11, Cipinang Cempedak]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="200" y="60" width="267" height="20" forecolor="#FCFAFA" uuid="0ad0aacb-2522-4c4b-ab42-774d80e67304"/>
-					<text><![CDATA[Daerah Khusus Ibukota Jakarta 13870]]></text>
+					<text><![CDATA[Daerah Khusus Ibukota Jakarta 13340, Indonesia]]></text>
 				</staticText>
 				<image>
 					<reportElement x="40" y="25" width="50" height="50" uuid="23d5bb3f-e081-4190-9f1d-1a95495589ee"/>
-                                        <imageExpression><![CDATA[$P{PATH}+"mangun_jaya-200.png"]]></imageExpression>
+                                        <imageExpression><![CDATA[$P{PATH}+"wika-200.jpeg"]]></imageExpression>
 				</image>
 			</frame>
 		</band>
@@ -279,7 +279,7 @@
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<text><![CDATA[KENYAMANAN]]></text>
+								<text><![CDATA[Kebutuhan]]></text>
 							</staticText>
 						</jr:tableHeader>
 						<jr:detailCell style="Table_TD" height="30">
@@ -304,7 +304,7 @@
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<text><![CDATA[KETAHANAN]]></text>
+								<text><![CDATA[Frekuensi]]></text>
 							</staticText>
 						</jr:tableHeader>
 						<jr:detailCell style="Table_TD" height="30">
@@ -329,7 +329,7 @@
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<text><![CDATA[PERAWATAN]]></text>
+								<text><![CDATA[Dampak]]></text>
 							</staticText>
 						</jr:tableHeader>
 						<jr:detailCell style="Table_TD" height="30">

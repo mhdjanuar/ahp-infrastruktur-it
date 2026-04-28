@@ -46,7 +46,7 @@ INSERT INTO `candidates` (`id`, `name`, `description`, `appearance_score`, `comf
 (2, 'Karmani', 'Kain poliester-viskosa yang tebal dan elegan, cocok untuk jas atau blazer dengan tampilan eksklusif.', 9, 7, 9, 6),
 (3, 'Potopino', 'Kain formal berbahan poliester-viskosa, doff, tidak mudah kusut, ideal untuk pakaian kantor.', 8, 7, 9, 7),
 (4, 'Tropical', 'Kain ringan, sejuk, dan mudah dicuci, cocok untuk pakaian kerja harian di iklim tropis.', 6, 8, 7, 8),
-(5, 'Semi Wool test', 'Kain premium campuran wol sintetis, tampilan sangat elegan namun butuh perawatan khusus. test', 7, 1, 2, 3),
+(5, 'Semi Wool test', 'Kain premium campuran wol sintetis, tampilan sangat elegan namun butuh Dampak khusus. test', 7, 1, 2, 3),
 (6, 'Test', 'test desc', 1, 2, 3, 4);
 
 -- --------------------------------------------------------
@@ -66,10 +66,10 @@ CREATE TABLE `criteria` (
 --
 
 INSERT INTO `criteria` (`code`, `name`, `priority`) VALUES
-('K1', 'Nilai Penampilan', 'Sangat Penting ke-1'),
-('K2', 'Kenyamanan', 'Penting ke-2'),
-('K3', 'Ketahanan', 'Cukup Penting ke-3'),
-('K4', 'Perawatan', 'Biasa ke-4');
+('K1', 'Nilai Kondisi', 'Sangat Penting ke-1'),
+('K2', 'Kebutuhan', 'Penting ke-2'),
+('K3', 'Frekuensi', 'Cukup Penting ke-3'),
+('K4', 'Dampak', 'Biasa ke-4');
 
 -- --------------------------------------------------------
 

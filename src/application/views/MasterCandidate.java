@@ -244,7 +244,7 @@ public class MasterCandidate extends javax.swing.JPanel {
 
     private void buttonAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonAddActionPerformed
         // TODO add your handling code here:
-        addCandidateDialog.setTitleFrame("Tambah Data Bahan");
+        addCandidateDialog.setTitleFrame("Tambah Data Infrastruktur");
         addCandidateDialog.clearForm();
         addCandidateDialog.show();
         loadTable();
