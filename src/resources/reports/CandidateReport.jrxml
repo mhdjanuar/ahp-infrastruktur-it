@@ -151,7 +151,7 @@
 				<textElement textAlignment="Center">
 					<font size="20" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Laporan Data Bahan]]></text>
+				<text><![CDATA[Laporan Data Infrastruktur]]></text>
 			</staticText>
 		</band>
 	</columnHeader>

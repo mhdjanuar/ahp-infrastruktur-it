@@ -654,7 +654,7 @@ public class MenuView extends javax.swing.JFrame {
     private void laporanHasilSeleksi1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksi1MouseClicked
         // TODO add your handling code here:
          try{
-            String templateName = "LaporanAkunBahanTerbaik.jrxml";
+            String templateName = "LaporanAkunInfrastrukturTerbaik.jrxml";
             InputStream reportStream = MenuView.class.getResourceAsStream("/resources/reports/" + templateName);
             JasperDesign jd = JRXmlLoader.load(reportStream);
             

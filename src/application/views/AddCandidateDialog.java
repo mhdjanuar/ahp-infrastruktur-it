@@ -123,7 +123,7 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         judul.setOpaque(true);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Penilaian Bobot Bahan"));
+        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder("Penilaian Bobot Infrastruktur"));
 
         jLabel24.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel24.setText("Nilai Kondisi");
@@ -179,7 +179,7 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         );
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Bahan "));
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder("Infrastruktur "));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jLabel6.setText("ID");
@@ -284,7 +284,7 @@ public class AddCandidateDialog extends javax.swing.JDialog {
         );
 
         jPanel12.getAccessibleContext().setAccessibleName("Aasdasdasd");
-        jPanel11.getAccessibleContext().setAccessibleName("Bahan");
+        jPanel11.getAccessibleContext().setAccessibleName("Infrastruktur");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 

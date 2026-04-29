@@ -20,7 +20,7 @@ package application.models;
     private int knowledgeScore;
     private int technicalSkillScore;
     private int advancedSkillScore;
-    // Bahan    
+    // Infrastruktur    
     private int appearanceScore;    
     private int comfortScore;
     private int durabilityScore;

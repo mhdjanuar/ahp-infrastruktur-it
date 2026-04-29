@@ -102,7 +102,7 @@
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Penilaian Bobot Bahan"/>
+                <TitledBorder title="Penilaian Bobot Infrastruktur"/>
               </Border>
             </Property>
           </Properties>
@@ -210,12 +210,12 @@
             </Property>
             <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
               <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                <TitledBorder title="Bahan "/>
+                <TitledBorder title="Infrastruktur "/>
               </Border>
             </Property>
           </Properties>
           <AccessibilityProperties>
-            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Bahan"/>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Infrastruktur"/>
           </AccessibilityProperties>
 
           <Layout>

@@ -203,7 +203,7 @@ on s.user_id = c.id ORDER BY s.score DESC]]>
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<text><![CDATA[NAMA BAHAN]]></text>
+								<text><![CDATA[NAMA Infrastruktur]]></text>
 							</staticText>
 						</jr:tableHeader>
 						<jr:detailCell style="Table_TD" height="30">

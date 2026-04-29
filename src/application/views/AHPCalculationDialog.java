@@ -566,7 +566,7 @@ public class AHPCalculationDialog extends javax.swing.JDialog {
         judul.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         judul.setForeground(new java.awt.Color(255, 255, 255));
         judul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        judul.setText("Perhitungan Hasil Penilaian Bahan Terbaik Menggunakan Metode AHP");
+        judul.setText("Perhitungan Hasil Penilaian Infrastruktur Terbaik Menggunakan Metode AHP");
         judul.setOpaque(true);
 
         jScrollPane1.setMinimumSize(new java.awt.Dimension(900, 900));

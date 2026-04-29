@@ -253,7 +253,7 @@ public class MasterCandidate extends javax.swing.JPanel {
     private void buttonEditActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonEditActionPerformed
         // TODO add your handling code here:
         if(id != null){
-            addCandidateDialog.setTitleFrame("Ubah Data Bahan");
+            addCandidateDialog.setTitleFrame("Ubah Data Infrastruktur");
             addCandidateDialog.show();
             loadTable();
             id = null;

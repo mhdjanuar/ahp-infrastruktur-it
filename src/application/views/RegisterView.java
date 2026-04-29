@@ -126,7 +126,7 @@ public class RegisterView extends javax.swing.JFrame {
         jLabel10.setText("Aplikasi Sistem Pendukung Keputusan");
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        jLabel11.setText("Bahan Terbaik");
+        jLabel11.setText("Infrastruktur Terbaik");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);

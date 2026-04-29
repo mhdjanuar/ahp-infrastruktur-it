@@ -25,7 +25,7 @@ public class SelectionTableModel extends AbstractTableModel {
             case 1:
                 return "Ranking";
             case 2:
-                return "Nama Bahan";
+                return "Nama Infrastruktur";
             case 3:
                 return "Hasil Penilaian";
             default:
