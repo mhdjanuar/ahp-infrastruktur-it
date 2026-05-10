@@ -34,7 +34,7 @@
 		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MySQL"/>
 		<queryString language="SQL">
-			<![CDATA[select * from ahp_infrastruktur_ti.users]]>
+			<![CDATA[select * from ahp_bahan_terbaik.users]]>
 		</queryString>
 		<field name="id" class="java.lang.Integer">
 			<property name="com.jaspersoft.studio.field.name" value="id"/>
@@ -46,16 +46,80 @@
 			<property name="com.jaspersoft.studio.field.label" value="name"/>
 			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
 		</field>
-		
+		<field name="gender" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="gender"/>
+			<property name="com.jaspersoft.studio.field.label" value="gender"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="email" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="email"/>
+			<property name="com.jaspersoft.studio.field.label" value="email"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="place_of_birth" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="place_of_birth"/>
+			<property name="com.jaspersoft.studio.field.label" value="place_of_birth"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="date_of_birth" class="java.sql.Date">
+			<property name="com.jaspersoft.studio.field.name" value="date_of_birth"/>
+			<property name="com.jaspersoft.studio.field.label" value="date_of_birth"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="address" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="address"/>
+			<property name="com.jaspersoft.studio.field.label" value="address"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="religion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="religion"/>
+			<property name="com.jaspersoft.studio.field.label" value="religion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="status" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="status"/>
+			<property name="com.jaspersoft.studio.field.label" value="status"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="phone_number" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="phone_number"/>
+			<property name="com.jaspersoft.studio.field.label" value="phone_number"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="join_date" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="join_date"/>
+			<property name="com.jaspersoft.studio.field.label" value="join_date"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
 		<field name="username" class="java.lang.String">
 			<property name="com.jaspersoft.studio.field.name" value="username"/>
 			<property name="com.jaspersoft.studio.field.label" value="username"/>
 			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
 		</field>
+		<field name="password" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="password"/>
+			<property name="com.jaspersoft.studio.field.label" value="password"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="role_id" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="role_id"/>
+			<property name="com.jaspersoft.studio.field.label" value="role_id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="created_at" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="created_at"/>
+			<property name="com.jaspersoft.studio.field.label" value="created_at"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
+		<field name="updated_at" class="java.time.LocalDateTime">
+			<property name="com.jaspersoft.studio.field.name" value="updated_at"/>
+			<property name="com.jaspersoft.studio.field.label" value="updated_at"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+		</field>
 	</subDataset>
 	<parameter name="PATH" class="java.lang.String"/>
 	<queryString language="SQL">
-		<![CDATA[select * from  ahp_infrastruktur_ti.users limit 1]]>
+		<![CDATA[select * from  ahp_bahan_terbaik.users limit 1]]>
 	</queryString>
 	<field name="id" class="java.lang.Integer">
 		<property name="com.jaspersoft.studio.field.name" value="id"/>
@@ -67,9 +131,74 @@
 		<property name="com.jaspersoft.studio.field.label" value="name"/>
 		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
 	</field>
+	<field name="gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="gender"/>
+		<property name="com.jaspersoft.studio.field.label" value="gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="email" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="email"/>
+		<property name="com.jaspersoft.studio.field.label" value="email"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="place_of_birth" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="place_of_birth"/>
+		<property name="com.jaspersoft.studio.field.label" value="place_of_birth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="date_of_birth" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="date_of_birth"/>
+		<property name="com.jaspersoft.studio.field.label" value="date_of_birth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="address"/>
+		<property name="com.jaspersoft.studio.field.label" value="address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="religion" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="religion"/>
+		<property name="com.jaspersoft.studio.field.label" value="religion"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="status"/>
+		<property name="com.jaspersoft.studio.field.label" value="status"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="phone_number" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="phone_number"/>
+		<property name="com.jaspersoft.studio.field.label" value="phone_number"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="join_date" class="java.time.LocalDateTime">
+		<property name="com.jaspersoft.studio.field.name" value="join_date"/>
+		<property name="com.jaspersoft.studio.field.label" value="join_date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
 	<field name="username" class="java.lang.String">
 		<property name="com.jaspersoft.studio.field.name" value="username"/>
 		<property name="com.jaspersoft.studio.field.label" value="username"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="password" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="password"/>
+		<property name="com.jaspersoft.studio.field.label" value="password"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="role_id" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="role_id"/>
+		<property name="com.jaspersoft.studio.field.label" value="role_id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="created_at" class="java.time.LocalDateTime">
+		<property name="com.jaspersoft.studio.field.name" value="created_at"/>
+		<property name="com.jaspersoft.studio.field.label" value="created_at"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
+	</field>
+	<field name="updated_at" class="java.time.LocalDateTime">
+		<property name="com.jaspersoft.studio.field.name" value="updated_at"/>
+		<property name="com.jaspersoft.studio.field.label" value="updated_at"/>
 		<property name="com.jaspersoft.studio.field.tree.path" value="users"/>
 	</field>
 	<background>
@@ -177,11 +306,35 @@
 								<textElement textAlignment="Center">
 									<paragraph spacingBefore="10"/>
 								</textElement>
-								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+								<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
 							</textField>
 						</jr:detailCell>
 					</jr:column>
-	
+					<jr:column width="193" uuid="fc61c010-46b9-4ece-967c-682255b03488">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column3"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="193" height="30" uuid="9b5599d2-84af-4437-8e48-1dad9992003d">
+									<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+								</reportElement>
+								<textElement textAlignment="Center">
+									<paragraph spacingBefore="10"/>
+								</textElement>
+								<text><![CDATA[PASSWORD]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="193" height="30" uuid="5f4039a4-4b03-4d17-afe6-f5e7dd51391f">
+									<property name="com.jaspersoft.studio.unit.spacingBefore" value="px"/>
+								</reportElement>
+								<textElement textAlignment="Center">
+									<paragraph spacingBefore="10"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{password}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
 				</jr:table>
 			</componentElement>
 		</band>

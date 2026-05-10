@@ -503,14 +503,14 @@ public class MenuView extends javax.swing.JFrame {
 
     private void laporanCalonPelamarMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanCalonPelamarMouseEntered
         // TODO add your handling code here:
-        laporanCalonPelamar.setBackground(new Color(63, 74, 44));
+        laporanCalonPelamar.setBackground(new Color(66,173,245));
         laporanCalonPelamar.setCursor(new Cursor(Cursor.HAND_CURSOR));
         laporanCalonPelamar.setForeground(new Color(255, 187, 0));
     }//GEN-LAST:event_laporanCalonPelamarMouseEntered
 
     private void laporanCalonPelamarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanCalonPelamarMouseExited
         // TODO add your handling code here:
-        laporanCalonPelamar.setBackground(new Color(63, 74, 44));
+        laporanCalonPelamar.setBackground(new Color(66,142,246));
         laporanCalonPelamar.setForeground(Color.white);
     }//GEN-LAST:event_laporanCalonPelamarMouseExited
 
@@ -540,14 +540,14 @@ public class MenuView extends javax.swing.JFrame {
 
     private void laporanPrioritasKriteriaMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanPrioritasKriteriaMouseEntered
         // TODO add your handling code here:
-        laporanPrioritasKriteria.setBackground(new Color(63, 74, 44));
+        laporanPrioritasKriteria.setBackground(new Color(66,173,245));
         laporanPrioritasKriteria.setCursor(new Cursor(Cursor.HAND_CURSOR));
         laporanPrioritasKriteria.setForeground(new Color(255, 187, 0));
     }//GEN-LAST:event_laporanPrioritasKriteriaMouseEntered
 
     private void laporanPrioritasKriteriaMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanPrioritasKriteriaMouseExited
         // TODO add your handling code here:
-        laporanPrioritasKriteria.setBackground(new Color(63, 74, 44));
+        laporanPrioritasKriteria.setBackground(new Color(66,142,246));
         laporanPrioritasKriteria.setForeground(Color.white);
     }//GEN-LAST:event_laporanPrioritasKriteriaMouseExited
 
@@ -577,14 +577,14 @@ public class MenuView extends javax.swing.JFrame {
 
     private void laporanHasilSeleksiMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksiMouseEntered
         // TODO add your handling code here:
-        laporanHasilSeleksi.setBackground(new Color(63, 74, 44));
+        laporanHasilSeleksi.setBackground(new Color(66,173,245));
         laporanHasilSeleksi.setCursor(new Cursor(Cursor.HAND_CURSOR));
         laporanHasilSeleksi.setForeground(new Color(255, 187, 0));
     }//GEN-LAST:event_laporanHasilSeleksiMouseEntered
 
     private void laporanHasilSeleksiMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksiMouseExited
         // TODO add your handling code here:
-        laporanHasilSeleksi.setBackground(new Color(63, 74, 44));
+        laporanHasilSeleksi.setBackground(new Color(66,142,246));
         laporanHasilSeleksi.setForeground(Color.white);
     }//GEN-LAST:event_laporanHasilSeleksiMouseExited
 
@@ -654,7 +654,7 @@ public class MenuView extends javax.swing.JFrame {
     private void laporanHasilSeleksi1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksi1MouseClicked
         // TODO add your handling code here:
          try{
-            String templateName = "LaporanAkunInfrastrukturTerbaik.jrxml";
+            String templateName = "LaporanAkunInfrastruktur.jrxml";
             InputStream reportStream = MenuView.class.getResourceAsStream("/resources/reports/" + templateName);
             JasperDesign jd = JRXmlLoader.load(reportStream);
             
@@ -677,14 +677,14 @@ public class MenuView extends javax.swing.JFrame {
 
     private void laporanHasilSeleksi1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksi1MouseEntered
         // TODO add your handling code here:
-        laporanHasilSeleksi1.setBackground(new Color(63, 74, 44));
+        laporanHasilSeleksi1.setBackground(new Color(66,173,245));
         laporanHasilSeleksi1.setCursor(new Cursor(Cursor.HAND_CURSOR));
         laporanHasilSeleksi1.setForeground(new Color(255, 187, 0));
     }//GEN-LAST:event_laporanHasilSeleksi1MouseEntered
 
     private void laporanHasilSeleksi1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_laporanHasilSeleksi1MouseExited
         // TODO add your handling code here:
-        laporanHasilSeleksi1.setBackground(new Color(63, 74, 44));
+        laporanHasilSeleksi1.setBackground(new Color(66,142,246));
         laporanHasilSeleksi1.setForeground(Color.white);
     }//GEN-LAST:event_laporanHasilSeleksi1MouseExited
 
